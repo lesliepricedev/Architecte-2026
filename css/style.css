@@ -1,0 +1,110 @@
+@import url(melodrama.css);
+
+body {
+    margin: 0;
+    color: #0F1740;
+    font-family: "Nunito", sans-serif;
+}
+
+h1,
+h2 {
+    font-family: Melodrama-Medium;
+    margin: 0;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Melodrama-Medium;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bouton1 {
+    background-color: #FC8F00;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    display: block;
+    width: fit-content;
+}
+
+.hero {
+    height: 618px;
+    max-width: 100%;
+    background:
+        linear-gradient(rgb(255 255 255 / 0%), rgb(255 255 255 / 46%)),
+        url(/assets/couverture-dada-design-9KGB4HspwsM-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.Title {
+    margin: 25px;
+    text-align: end;
+}
+
+.Title p {
+    color: #f8f9fa;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.promesses {
+    background-color: #D3E1EB;
+    padding: 80px 0px;
+    text-align: -webkit-center;
+}
+
+.Detailpromesse {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.bouton2 {
+    background-color: #3749AB;
+    color: white;
+    border-radius: 8px;
+    padding: 18px 24px;
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+}
