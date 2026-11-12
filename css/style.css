@@ -1,6 +1,7 @@
 @import url(melodrama.css);
 
 body {
+    max-width: 100%;
     margin: 0;
     color: #0F1740;
     font-family: "Nunito", sans-serif;
@@ -42,6 +43,7 @@ nav {
 }
 
 nav a {
+    color: #0F1740;
     text-decoration: none;
     font-family: Melodrama-Medium;
     font-size: 18px;
@@ -83,7 +85,7 @@ nav a {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1072px;
     margin: auto;
 }
 
@@ -175,7 +177,7 @@ article {
 }
 
 .Temoignages h2 {
-    color: white;
+    color: #0F1740;
 }
 
 .gallerieClients {
@@ -187,7 +189,7 @@ article {
 
 .CardClient {
     width: 340px;
-    min-height: 230px;
+    min-height: 200px;
     border: solid #fc8f00 2px;
     padding: 36px 7px;
     border-radius: 30px 0;
@@ -197,10 +199,13 @@ article {
     align-items: center;
     gap: 36px;
 }
+.CardClient h3{
+    margin: 0;
+}
 
 footer {
     background-color: #D3E1EB;
-    padding: 80px 0px;
+    padding: 40px 0px;
     text-align: -webkit-center;  
 }
 .rss{
@@ -209,15 +214,20 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    gap: 24px;
+    gap: 15px;
 }
 .fa-brands {
     color: #0F1740;
-    font-size: 36px;
+    font-size: 18px;
 }
 footer a{
     text-decoration: none;
     color: #FC8F00;
     font-weight: bold;
+    font-size: 16px;
     padding: 0px 10px;
+
+}
+footer p{
+    font-size: 16px;
 }
