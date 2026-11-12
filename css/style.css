@@ -136,7 +136,8 @@ article {
     padding: 80px 0px;
     text-align: -webkit-center;
 }
-.gallerie{
+
+.gallerie {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -156,6 +157,7 @@ article {
     align-items: center;
     gap: 36px;
 }
+
 .bouton3 {
     background-color: #FC8F00;
     color: white;
@@ -165,15 +167,18 @@ article {
     width: fit-content;
     text-decoration: none;
 }
- .Temoignages {
+
+.Temoignages {
     background-color: #FC8F00;
     padding: 80px 0px;
     text-align: -webkit-center;
 }
-.Temoignages h2{
+
+.Temoignages h2 {
     color: white;
 }
-.gallerieClients{
+
+.gallerieClients {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -193,3 +198,26 @@ article {
     gap: 36px;
 }
 
+footer {
+    background-color: #D3E1EB;
+    padding: 80px 0px;
+    text-align: -webkit-center;  
+}
+.rss{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+.fa-brands {
+    color: #0F1740;
+    font-size: 36px;
+}
+footer a{
+    text-decoration: none;
+    color: #FC8F00;
+    font-weight: bold;
+    padding: 0px 10px;
+}
