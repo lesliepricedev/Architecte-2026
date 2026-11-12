@@ -34,9 +34,11 @@ header {
     position: sticky;
     top: 0;
 }
-header img:hover{
-width: 220px;
+
+header img:hover {
+    width: 170px;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -51,7 +53,8 @@ nav a {
     font-size: 18px;
     font-weight: bold;
 }
- a:hover{
+
+a:hover {
     color: #3749AB;
 }
 
@@ -90,7 +93,7 @@ nav a {
 }
 
 .container {
-    max-width: 1072px;
+    max-width: 1040px;
     margin: auto;
 }
 
@@ -122,6 +125,7 @@ nav a {
     padding: 80px 0px;
     text-align: -webkit-center;
 }
+
 .liste-presta {
     padding-top: 40px;
 }
@@ -131,14 +135,14 @@ article {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 80px;
+    gap: 40px;
 }
 
 .CardPresta img {
     border: solid #fc8f00 2px;
-    padding: 30px 7px;
+    padding: 5px 5px;
     border-radius: 30px 0;
-    background-color: #d3e1eb;
+    /* background-color: #d3e1eb;*/
 }
 
 .projets {
@@ -155,17 +159,18 @@ article {
 }
 
 .CardProjet {
-    width: 500px;
-    height: 500px;
-    /* margin: 80px 0px; */
+    width: 400px;
     border: solid #fc8f00 2px;
-    padding: 36px 7px 60px;
+    padding: 5px 5px 60px;
     border-radius: 30px 0;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 36px;
+}
+.CardProjet img{
+border-radius: 30px 0 0 0;
 }
 
 .bouton3 {
@@ -179,7 +184,7 @@ article {
 }
 
 .Temoignages {
-    background-color: #FC8F00;
+    background-color: white;
     padding: 80px 0px;
     text-align: -webkit-center;
 }
@@ -196,27 +201,29 @@ article {
 }
 
 .CardClient {
-    width: 340px;
-    min-height: 200px;
+    width: 300px;
+    min-height: 150px;
     border: solid #fc8f00 2px;
-    padding: 36px 7px;
+    padding: 18px 7px;
     border-radius: 30px 0;
     background-color: #d3e1eb;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 36px;
+    gap: 18px;
 }
-.CardClient h3{
+
+.CardClient h3 {
     margin: 0;
 }
 
 footer {
     background-color: #D3E1EB;
     padding: 40px 0px;
-    text-align: -webkit-center;  
+    text-align: -webkit-center;
 }
-.rss{
+
+.rss {
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -224,15 +231,17 @@ footer {
     align-items: flex-start;
     gap: 15px;
 }
+
 .fa-brands {
     color: #0F1740;
     font-size: 18px;
 }
-.fa-brands:hover{
+
+.fa-brands:hover {
     color: #3749AB;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: #FC8F00;
     font-weight: bold;
@@ -240,12 +249,21 @@ footer a{
     padding: 0px 10px;
 
 }
-footer p{
+
+footer p {
     font-size: 16px;
     margin: 0;
     padding: 10px;
 }
-.bouton:hover{
+
+.bouton:hover {
     background-color: #D3E1EB;
     border: #3749AB solid 1px;
+}
+
+summary {
+display: block
+}
+summary:hover{
+    color: #FC8F00;
 }
